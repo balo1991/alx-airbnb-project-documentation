@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Use Case Diagram" id="airbnb-usecase">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="guest" value="Guest" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="host" value="Host" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="Admin" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="Airbnb Clone System" style="shape=rectangle;rounded=1;dashed=1;strokeColor=#000000;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="200" y="60" width="500" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Search Properties" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="280" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Book Property" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="40" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="280" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="Leave Review" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="40" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="Manage Listings" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="280" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="160" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="Monitor Payments" style="ellipse;whiteSpace=wrap;html=1;" parent="system" vertex="1">
+          <mxGeometry x="160" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" parent="1" source="guest" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" parent="1" source="guest" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" parent="1" source="guest" target="uc3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" parent="1" source="guest" target="uc4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" parent="1" source="guest" target="uc5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" parent="1" source="host" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" parent="1" source="host" target="uc6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" parent="1" source="admin" target="uc7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" parent="1" source="admin" target="uc8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
